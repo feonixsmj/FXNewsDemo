@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+
+target 'FXNewsDemo' do
+pod 'AFNetworking'
+pod 'FlyImage/WebP' 
+pod 'FlyImage','~>1.0'
+pod 'YYModel'
+pod 'SVProgressHUD'
+pod 'SDWebImage', '~> 4.0'
+end
+

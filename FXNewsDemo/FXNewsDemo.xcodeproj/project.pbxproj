@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44084E4A1FC2C26500C7D8CB /* FXCollectionTestVCL.m in Sources */ = {isa = PBXBuildFile; fileRef = 44084E491FC2C26500C7D8CB /* FXCollectionTestVCL.m */; };
+		44084E4C1FC2CCEE00C7D8CB /* FXMainVCL.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44084E4B1FC2CCEE00C7D8CB /* FXMainVCL.storyboard */; };
+		440F1A421FA08E640075B9CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 440F1A411FA08E640075B9CD /* Assets.xcassets */; };
+		440F1A481FA092360075B9CD /* FXMainVCL.m in Sources */ = {isa = PBXBuildFile; fileRef = 440F1A461FA092360075B9CD /* FXMainVCL.m */; };
+		44430C471F8E134700F5BA00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44430C461F8E134700F5BA00 /* main.m */; };
+		44430C4A1F8E134700F5BA00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44430C491F8E134700F5BA00 /* AppDelegate.m */; };
+		44430C601F8E134700F5BA00 /* FXNewsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44430C5F1F8E134700F5BA00 /* FXNewsDemoTests.m */; };
+		44430C6B1F8E134700F5BA00 /* FXNewsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44430C6A1F8E134700F5BA00 /* FXNewsDemoUITests.m */; };
+		E65847F6E853D2FF849A6DB8 /* libPods-FXNewsDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2F009CD612FD2804716DC72 /* libPods-FXNewsDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44430C5C1F8E134700F5BA00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44430C3A1F8E134700F5BA00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44430C411F8E134700F5BA00;
+			remoteInfo = FXNewsDemo;
+		};
+		44430C671F8E134700F5BA00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44430C3A1F8E134700F5BA00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44430C411F8E134700F5BA00;
+			remoteInfo = FXNewsDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44084E481FC2C26500C7D8CB /* FXCollectionTestVCL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FXCollectionTestVCL.h; sourceTree = "<group>"; };
+		44084E491FC2C26500C7D8CB /* FXCollectionTestVCL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FXCollectionTestVCL.m; sourceTree = "<group>"; };
+		44084E4B1FC2CCEE00C7D8CB /* FXMainVCL.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FXMainVCL.storyboard; sourceTree = "<group>"; };
+		440F1A411FA08E640075B9CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		440F1A451FA092360075B9CD /* FXMainVCL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FXMainVCL.h; sourceTree = "<group>"; };
+		440F1A461FA092360075B9CD /* FXMainVCL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FXMainVCL.m; sourceTree = "<group>"; };
+		44430C421F8E134700F5BA00 /* FXNewsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FXNewsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44430C461F8E134700F5BA00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44430C481F8E134700F5BA00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		44430C491F8E134700F5BA00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		44430C561F8E134700F5BA00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44430C5B1F8E134700F5BA00 /* FXNewsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FXNewsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44430C5F1F8E134700F5BA00 /* FXNewsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FXNewsDemoTests.m; sourceTree = "<group>"; };
+		44430C611F8E134700F5BA00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44430C661F8E134700F5BA00 /* FXNewsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FXNewsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44430C6A1F8E134700F5BA00 /* FXNewsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FXNewsDemoUITests.m; sourceTree = "<group>"; };
+		44430C6C1F8E134700F5BA00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A9AD0DBF7FECBE98F2133EF /* Pods-FXNewsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FXNewsDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FXNewsDemo/Pods-FXNewsDemo.release.xcconfig"; sourceTree = "<group>"; };
+		AE0F731789DD7AF74EBB9594 /* Pods-FXNewsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FXNewsDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FXNewsDemo/Pods-FXNewsDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D2F009CD612FD2804716DC72 /* libPods-FXNewsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FXNewsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44430C3F1F8E134700F5BA00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E65847F6E853D2FF849A6DB8 /* libPods-FXNewsDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44430C581F8E134700F5BA00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44430C631F8E134700F5BA00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44084E471FC2C24400C7D8CB /* CollectionViewTest */ = {
+			isa = PBXGroup;
+			children = (
+				44084E481FC2C26500C7D8CB /* FXCollectionTestVCL.h */,
+				44084E491FC2C26500C7D8CB /* FXCollectionTestVCL.m */,
+			);
+			path = CollectionViewTest;
+			sourceTree = "<group>";
+		};
+		440F1A401FA08AE40075B9CD /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				440F1A411FA08E640075B9CD /* Assets.xcassets */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		440F1A4A1FA0924E0075B9CD /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				44084E471FC2C24400C7D8CB /* CollectionViewTest */,
+				440F1A4D1FA0929C0075B9CD /* Main */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		440F1A4D1FA0929C0075B9CD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				440F1A451FA092360075B9CD /* FXMainVCL.h */,
+				440F1A461FA092360075B9CD /* FXMainVCL.m */,
+				44084E4B1FC2CCEE00C7D8CB /* FXMainVCL.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		44430C391F8E134700F5BA00 = {
+			isa = PBXGroup;
+			children = (
+				44430C441F8E134700F5BA00 /* FXNewsDemo */,
+				44430C5E1F8E134700F5BA00 /* FXNewsDemoTests */,
+				44430C691F8E134700F5BA00 /* FXNewsDemoUITests */,
+				44430C431F8E134700F5BA00 /* Products */,
+				C90053924DC350CCF6E2D54C /* Pods */,
+				785CCE878852DD8E7B00C33F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		44430C431F8E134700F5BA00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44430C421F8E134700F5BA00 /* FXNewsDemo.app */,
+				44430C5B1F8E134700F5BA00 /* FXNewsDemoTests.xctest */,
+				44430C661F8E134700F5BA00 /* FXNewsDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44430C441F8E134700F5BA00 /* FXNewsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				440F1A4A1FA0924E0075B9CD /* Module */,
+				440F1A401FA08AE40075B9CD /* Source */,
+				44430C481F8E134700F5BA00 /* AppDelegate.h */,
+				44430C491F8E134700F5BA00 /* AppDelegate.m */,
+				44430C561F8E134700F5BA00 /* Info.plist */,
+				44430C451F8E134700F5BA00 /* Supporting Files */,
+			);
+			path = FXNewsDemo;
+			sourceTree = "<group>";
+		};
+		44430C451F8E134700F5BA00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44430C461F8E134700F5BA00 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44430C5E1F8E134700F5BA00 /* FXNewsDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				44430C5F1F8E134700F5BA00 /* FXNewsDemoTests.m */,
+				44430C611F8E134700F5BA00 /* Info.plist */,
+			);
+			path = FXNewsDemoTests;
+			sourceTree = "<group>";
+		};
+		44430C691F8E134700F5BA00 /* FXNewsDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44430C6A1F8E134700F5BA00 /* FXNewsDemoUITests.m */,
+				44430C6C1F8E134700F5BA00 /* Info.plist */,
+			);
+			path = FXNewsDemoUITests;
+			sourceTree = "<group>";
+		};
+		785CCE878852DD8E7B00C33F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2F009CD612FD2804716DC72 /* libPods-FXNewsDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C90053924DC350CCF6E2D54C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE0F731789DD7AF74EBB9594 /* Pods-FXNewsDemo.debug.xcconfig */,
+				4A9AD0DBF7FECBE98F2133EF /* Pods-FXNewsDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44430C411F8E134700F5BA00 /* FXNewsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44430C6F1F8E134700F5BA00 /* Build configuration list for PBXNativeTarget "FXNewsDemo" */;
+			buildPhases = (
+				737AB05F8E6315040605854B /* [CP] Check Pods Manifest.lock */,
+				44430C3E1F8E134700F5BA00 /* Sources */,
+				44430C3F1F8E134700F5BA00 /* Frameworks */,
+				44430C401F8E134700F5BA00 /* Resources */,
+				D2BB9E2D644B02D5C4B3556A /* [CP] Embed Pods Frameworks */,
+				9C088A1C58D4BB6C910C23DF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FXNewsDemo;
+			productName = FXNewsDemo;
+			productReference = 44430C421F8E134700F5BA00 /* FXNewsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44430C5A1F8E134700F5BA00 /* FXNewsDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44430C721F8E134700F5BA00 /* Build configuration list for PBXNativeTarget "FXNewsDemoTests" */;
+			buildPhases = (
+				44430C571F8E134700F5BA00 /* Sources */,
+				44430C581F8E134700F5BA00 /* Frameworks */,
+				44430C591F8E134700F5BA00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44430C5D1F8E134700F5BA00 /* PBXTargetDependency */,
+			);
+			name = FXNewsDemoTests;
+			productName = FXNewsDemoTests;
+			productReference = 44430C5B1F8E134700F5BA00 /* FXNewsDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44430C651F8E134700F5BA00 /* FXNewsDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44430C751F8E134700F5BA00 /* Build configuration list for PBXNativeTarget "FXNewsDemoUITests" */;
+			buildPhases = (
+				44430C621F8E134700F5BA00 /* Sources */,
+				44430C631F8E134700F5BA00 /* Frameworks */,
+				44430C641F8E134700F5BA00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44430C681F8E134700F5BA00 /* PBXTargetDependency */,
+			);
+			name = FXNewsDemoUITests;
+			productName = FXNewsDemoUITests;
+			productReference = 44430C661F8E134700F5BA00 /* FXNewsDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44430C3A1F8E134700F5BA00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "苏敏杰";
+				TargetAttributes = {
+					44430C411F8E134700F5BA00 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					44430C5A1F8E134700F5BA00 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 44430C411F8E134700F5BA00;
+					};
+					44430C651F8E134700F5BA00 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 44430C411F8E134700F5BA00;
+					};
+				};
+			};
+			buildConfigurationList = 44430C3D1F8E134700F5BA00 /* Build configuration list for PBXProject "FXNewsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44430C391F8E134700F5BA00;
+			productRefGroup = 44430C431F8E134700F5BA00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44430C411F8E134700F5BA00 /* FXNewsDemo */,
+				44430C5A1F8E134700F5BA00 /* FXNewsDemoTests */,
+				44430C651F8E134700F5BA00 /* FXNewsDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44430C401F8E134700F5BA00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440F1A421FA08E640075B9CD /* Assets.xcassets in Resources */,
+				44084E4C1FC2CCEE00C7D8CB /* FXMainVCL.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44430C591F8E134700F5BA00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44430C641F8E134700F5BA00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		737AB05F8E6315040605854B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FXNewsDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C088A1C58D4BB6C910C23DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FXNewsDemo/Pods-FXNewsDemo-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FXNewsDemo/Pods-FXNewsDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2BB9E2D644B02D5C4B3556A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FXNewsDemo/Pods-FXNewsDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44430C3E1F8E134700F5BA00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44430C4A1F8E134700F5BA00 /* AppDelegate.m in Sources */,
+				440F1A481FA092360075B9CD /* FXMainVCL.m in Sources */,
+				44430C471F8E134700F5BA00 /* main.m in Sources */,
+				44084E4A1FC2C26500C7D8CB /* FXCollectionTestVCL.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44430C571F8E134700F5BA00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44430C601F8E134700F5BA00 /* FXNewsDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44430C621F8E134700F5BA00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44430C6B1F8E134700F5BA00 /* FXNewsDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44430C5D1F8E134700F5BA00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44430C411F8E134700F5BA00 /* FXNewsDemo */;
+			targetProxy = 44430C5C1F8E134700F5BA00 /* PBXContainerItemProxy */;
+		};
+		44430C681F8E134700F5BA00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44430C411F8E134700F5BA00 /* FXNewsDemo */;
+			targetProxy = 44430C671F8E134700F5BA00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		44430C6D1F8E134700F5BA00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44430C6E1F8E134700F5BA00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44430C701F8E134700F5BA00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE0F731789DD7AF74EBB9594 /* Pods-FXNewsDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FXNewsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FX.FXNewsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		44430C711F8E134700F5BA00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A9AD0DBF7FECBE98F2133EF /* Pods-FXNewsDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FXNewsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FX.FXNewsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		44430C731F8E134700F5BA00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FXNewsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FX.FXNewsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FXNewsDemo.app/FXNewsDemo";
+			};
+			name = Debug;
+		};
+		44430C741F8E134700F5BA00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FXNewsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FX.FXNewsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FXNewsDemo.app/FXNewsDemo";
+			};
+			name = Release;
+		};
+		44430C761F8E134700F5BA00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FXNewsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FX.FXNewsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FXNewsDemo;
+			};
+			name = Debug;
+		};
+		44430C771F8E134700F5BA00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FXNewsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FX.FXNewsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FXNewsDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44430C3D1F8E134700F5BA00 /* Build configuration list for PBXProject "FXNewsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44430C6D1F8E134700F5BA00 /* Debug */,
+				44430C6E1F8E134700F5BA00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44430C6F1F8E134700F5BA00 /* Build configuration list for PBXNativeTarget "FXNewsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44430C701F8E134700F5BA00 /* Debug */,
+				44430C711F8E134700F5BA00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44430C721F8E134700F5BA00 /* Build configuration list for PBXNativeTarget "FXNewsDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44430C731F8E134700F5BA00 /* Debug */,
+				44430C741F8E134700F5BA00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44430C751F8E134700F5BA00 /* Build configuration list for PBXNativeTarget "FXNewsDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44430C761F8E134700F5BA00 /* Debug */,
+				44430C771F8E134700F5BA00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44430C3A1F8E134700F5BA00 /* Project object */;
+}
