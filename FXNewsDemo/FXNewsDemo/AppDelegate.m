@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "FXNewsDemo-Swift.h"
 
 @interface AppDelegate ()
 
@@ -25,6 +26,10 @@
 //    UIViewController *vc = [storyboard instantiateViewControllerWithIdentifier:@"vc"];
     self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
+    
+    FXSwiftTest *test = [[FXSwiftTest alloc] init];
+    [test run];
+    
     return YES;
 }
 

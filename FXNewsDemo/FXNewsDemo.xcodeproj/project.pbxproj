@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		44084E4A1FC2C26500C7D8CB /* FXCollectionTestVCL.m in Sources */ = {isa = PBXBuildFile; fileRef = 44084E491FC2C26500C7D8CB /* FXCollectionTestVCL.m */; };
 		44084E4C1FC2CCEE00C7D8CB /* FXMainVCL.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44084E4B1FC2CCEE00C7D8CB /* FXMainVCL.storyboard */; };
+		440BEBD6206BB16B0097B234 /* FXSwiftTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440BEBD5206BB16B0097B234 /* FXSwiftTest.swift */; };
+		440BEC02206BB5830097B234 /* SwiftMonkey.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 440BEBEB206BB4A10097B234 /* SwiftMonkey.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		440BEC07206BB85F0097B234 /* SwiftMonkeyPaws.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 440BEBFD206BB4B60097B234 /* SwiftMonkeyPaws.framework */; };
+		440BEC08206BB85F0097B234 /* SwiftMonkeyPaws.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 440BEBFD206BB4B60097B234 /* SwiftMonkeyPaws.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		440BEC0E206BB9BC0097B234 /* MonkeyRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440BEC0D206BB9BC0097B234 /* MonkeyRunner.swift */; };
 		440F1A421FA08E640075B9CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 440F1A411FA08E640075B9CD /* Assets.xcassets */; };
 		440F1A481FA092360075B9CD /* FXMainVCL.m in Sources */ = {isa = PBXBuildFile; fileRef = 440F1A461FA092360075B9CD /* FXMainVCL.m */; };
 		44430C471F8E134700F5BA00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44430C461F8E134700F5BA00 /* main.m */; };
@@ -19,6 +24,41 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		440BEBEA206BB4A10097B234 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 440BEBE6206BB4A10097B234 /* SwiftMonkey.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_16;
+			remoteInfo = SwiftMonkey;
+		};
+		440BEBFC206BB4B60097B234 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 440BEBF8206BB4B60097B234 /* SwiftMonkeyPaws.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_12;
+			remoteInfo = SwiftMonkeyPaws;
+		};
+		440BEBFE206BB4E60097B234 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 440BEBF8206BB4B60097B234 /* SwiftMonkeyPaws.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_13;
+			remoteInfo = SwiftMonkeyPaws;
+		};
+		440BEC00206BB5350097B234 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 440BEBE6206BB4A10097B234 /* SwiftMonkey.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_17;
+			remoteInfo = SwiftMonkey;
+		};
+		440BEC09206BB85F0097B234 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 440BEBF8206BB4B60097B234 /* SwiftMonkeyPaws.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_13;
+			remoteInfo = SwiftMonkeyPaws;
+		};
 		44430C5C1F8E134700F5BA00 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 44430C3A1F8E134700F5BA00 /* Project object */;
@@ -35,10 +75,40 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		440BEBD0206BB0E70097B234 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				440BEC02206BB5830097B234 /* SwiftMonkey.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		440BEC0B206BB85F0097B234 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				440BEC08206BB85F0097B234 /* SwiftMonkeyPaws.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		44084E481FC2C26500C7D8CB /* FXCollectionTestVCL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FXCollectionTestVCL.h; sourceTree = "<group>"; };
 		44084E491FC2C26500C7D8CB /* FXCollectionTestVCL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FXCollectionTestVCL.m; sourceTree = "<group>"; };
 		44084E4B1FC2CCEE00C7D8CB /* FXMainVCL.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FXMainVCL.storyboard; sourceTree = "<group>"; };
+		440BEBD4206BB16A0097B234 /* FXNewsDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FXNewsDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		440BEBD5206BB16B0097B234 /* FXSwiftTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FXSwiftTest.swift; sourceTree = "<group>"; };
+		440BEBE6206BB4A10097B234 /* SwiftMonkey.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftMonkey.xcodeproj; path = SwiftMonkey/SwiftMonkey.xcodeproj; sourceTree = "<group>"; };
+		440BEBF8206BB4B60097B234 /* SwiftMonkeyPaws.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftMonkeyPaws.xcodeproj; path = SwiftMonkeyPaws/SwiftMonkeyPaws.xcodeproj; sourceTree = "<group>"; };
+		440BEC0C206BB9BB0097B234 /* FXNewsDemoUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FXNewsDemoUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		440BEC0D206BB9BC0097B234 /* MonkeyRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonkeyRunner.swift; sourceTree = "<group>"; };
 		440F1A411FA08E640075B9CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		440F1A451FA092360075B9CD /* FXMainVCL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FXMainVCL.h; sourceTree = "<group>"; };
 		440F1A461FA092360075B9CD /* FXMainVCL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FXMainVCL.m; sourceTree = "<group>"; };
@@ -63,6 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				440BEC07206BB85F0097B234 /* SwiftMonkeyPaws.framework in Frameworks */,
 				E65847F6E853D2FF849A6DB8 /* libPods-FXNewsDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -91,6 +162,22 @@
 				44084E491FC2C26500C7D8CB /* FXCollectionTestVCL.m */,
 			);
 			path = CollectionViewTest;
+			sourceTree = "<group>";
+		};
+		440BEBE7206BB4A10097B234 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				440BEBEB206BB4A10097B234 /* SwiftMonkey.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		440BEBF9206BB4B60097B234 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				440BEBFD206BB4B60097B234 /* SwiftMonkeyPaws.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		440F1A401FA08AE40075B9CD /* Source */ = {
@@ -123,6 +210,8 @@
 		44430C391F8E134700F5BA00 = {
 			isa = PBXGroup;
 			children = (
+				440BEBF8206BB4B60097B234 /* SwiftMonkeyPaws.xcodeproj */,
+				440BEBE6206BB4A10097B234 /* SwiftMonkey.xcodeproj */,
 				44430C441F8E134700F5BA00 /* FXNewsDemo */,
 				44430C5E1F8E134700F5BA00 /* FXNewsDemoTests */,
 				44430C691F8E134700F5BA00 /* FXNewsDemoUITests */,
@@ -151,6 +240,8 @@
 				44430C491F8E134700F5BA00 /* AppDelegate.m */,
 				44430C561F8E134700F5BA00 /* Info.plist */,
 				44430C451F8E134700F5BA00 /* Supporting Files */,
+				440BEBD5206BB16B0097B234 /* FXSwiftTest.swift */,
+				440BEBD4206BB16A0097B234 /* FXNewsDemo-Bridging-Header.h */,
 			);
 			path = FXNewsDemo;
 			sourceTree = "<group>";
@@ -177,6 +268,8 @@
 			children = (
 				44430C6A1F8E134700F5BA00 /* FXNewsDemoUITests.m */,
 				44430C6C1F8E134700F5BA00 /* Info.plist */,
+				440BEC0D206BB9BC0097B234 /* MonkeyRunner.swift */,
+				440BEC0C206BB9BB0097B234 /* FXNewsDemoUITests-Bridging-Header.h */,
 			);
 			path = FXNewsDemoUITests;
 			sourceTree = "<group>";
@@ -211,10 +304,13 @@
 				44430C401F8E134700F5BA00 /* Resources */,
 				D2BB9E2D644B02D5C4B3556A /* [CP] Embed Pods Frameworks */,
 				9C088A1C58D4BB6C910C23DF /* [CP] Copy Pods Resources */,
+				440BEC0B206BB85F0097B234 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				440BEBFF206BB4E60097B234 /* PBXTargetDependency */,
+				440BEC0A206BB85F0097B234 /* PBXTargetDependency */,
 			);
 			name = FXNewsDemo;
 			productName = FXNewsDemo;
@@ -246,10 +342,12 @@
 				44430C621F8E134700F5BA00 /* Sources */,
 				44430C631F8E134700F5BA00 /* Frameworks */,
 				44430C641F8E134700F5BA00 /* Resources */,
+				440BEBD0206BB0E70097B234 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				440BEC01206BB5350097B234 /* PBXTargetDependency */,
 				44430C681F8E134700F5BA00 /* PBXTargetDependency */,
 			);
 			name = FXNewsDemoUITests;
@@ -268,6 +366,7 @@
 				TargetAttributes = {
 					44430C411F8E134700F5BA00 = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					44430C5A1F8E134700F5BA00 = {
@@ -277,6 +376,7 @@
 					};
 					44430C651F8E134700F5BA00 = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 44430C411F8E134700F5BA00;
 					};
@@ -293,6 +393,16 @@
 			mainGroup = 44430C391F8E134700F5BA00;
 			productRefGroup = 44430C431F8E134700F5BA00 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 440BEBE7206BB4A10097B234 /* Products */;
+					ProjectRef = 440BEBE6206BB4A10097B234 /* SwiftMonkey.xcodeproj */;
+				},
+				{
+					ProductGroup = 440BEBF9206BB4B60097B234 /* Products */;
+					ProjectRef = 440BEBF8206BB4B60097B234 /* SwiftMonkeyPaws.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				44430C411F8E134700F5BA00 /* FXNewsDemo */,
@@ -301,6 +411,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		440BEBEB206BB4A10097B234 /* SwiftMonkey.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftMonkey.framework;
+			remoteRef = 440BEBEA206BB4A10097B234 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		440BEBFD206BB4B60097B234 /* SwiftMonkeyPaws.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftMonkeyPaws.framework;
+			remoteRef = 440BEBFC206BB4B60097B234 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		44430C401F8E134700F5BA00 /* Resources */ = {
@@ -355,6 +482,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FXNewsDemo/Pods-FXNewsDemo-resources.sh",
 				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -387,6 +515,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				440BEBD6206BB16B0097B234 /* FXSwiftTest.swift in Sources */,
 				44430C4A1F8E134700F5BA00 /* AppDelegate.m in Sources */,
 				440F1A481FA092360075B9CD /* FXMainVCL.m in Sources */,
 				44430C471F8E134700F5BA00 /* main.m in Sources */,
@@ -406,6 +535,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				440BEC0E206BB9BC0097B234 /* MonkeyRunner.swift in Sources */,
 				44430C6B1F8E134700F5BA00 /* FXNewsDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +543,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		440BEBFF206BB4E60097B234 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftMonkeyPaws;
+			targetProxy = 440BEBFE206BB4E60097B234 /* PBXContainerItemProxy */;
+		};
+		440BEC01206BB5350097B234 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftMonkey;
+			targetProxy = 440BEC00206BB5350097B234 /* PBXContainerItemProxy */;
+		};
+		440BEC0A206BB85F0097B234 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftMonkeyPaws;
+			targetProxy = 440BEC09206BB85F0097B234 /* PBXContainerItemProxy */;
+		};
 		44430C5D1F8E134700F5BA00 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 44430C411F8E134700F5BA00 /* FXNewsDemo */;
@@ -429,6 +574,7 @@
 		44430C6D1F8E134700F5BA00 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -451,6 +597,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -467,7 +614,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -478,6 +625,7 @@
 		44430C6E1F8E134700F5BA00 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -500,6 +648,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -510,7 +659,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -522,12 +671,19 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AE0F731789DD7AF74EBB9594 /* Pods-FXNewsDemo.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = FXNewsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FX.FXNewsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FXNewsDemo/FXNewsDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -535,18 +691,25 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4A9AD0DBF7FECBE98F2133EF /* Pods-FXNewsDemo.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = FXNewsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FX.FXNewsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FXNewsDemo/FXNewsDemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		44430C731F8E134700F5BA00 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FXNewsDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -559,6 +722,7 @@
 		44430C741F8E134700F5BA00 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FXNewsDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -571,10 +735,16 @@
 		44430C761F8E134700F5BA00 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = FXNewsDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FX.FXNewsDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FXNewsDemoUITests/FXNewsDemoUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = FXNewsDemo;
 			};
 			name = Debug;
@@ -582,10 +752,15 @@
 		44430C771F8E134700F5BA00 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = FXNewsDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FX.FXNewsDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FXNewsDemoUITests/FXNewsDemoUITests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = FXNewsDemo;
 			};
 			name = Release;

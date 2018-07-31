@@ -25,6 +25,8 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)button1Clicked:(id)sender {
+    NSMutableDictionary *dict = [NSMutableDictionary dictionaryWithCapacity:1];
+//    [dict setObject:nil forKey:@"1"];
     NSLog(@"button1");
 }
 - (IBAction)button2Clicked:(id)sender {

@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "FXNewsDemoUITests-Swift.h"
 
 @interface FXNewsDemoUITests : XCTestCase
 
@@ -33,6 +34,8 @@
 }
 
 - (void)testExample {
+    MonkeyRunner *runner = [[MonkeyRunner alloc] init];
+    [runner run];
     // Use recording to get started writing UI tests.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
 }
