@@ -14,6 +14,7 @@
 		440BEC07206BB85F0097B234 /* SwiftMonkeyPaws.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 440BEBFD206BB4B60097B234 /* SwiftMonkeyPaws.framework */; };
 		440BEC08206BB85F0097B234 /* SwiftMonkeyPaws.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 440BEBFD206BB4B60097B234 /* SwiftMonkeyPaws.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		440BEC0E206BB9BC0097B234 /* MonkeyRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440BEC0D206BB9BC0097B234 /* MonkeyRunner.swift */; };
+		440DE36A211046690079C455 /* 750x1334_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 440DE369211046690079C455 /* 750x1334_01.jpg */; };
 		440F1A421FA08E640075B9CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 440F1A411FA08E640075B9CD /* Assets.xcassets */; };
 		440F1A481FA092360075B9CD /* FXMainVCL.m in Sources */ = {isa = PBXBuildFile; fileRef = 440F1A461FA092360075B9CD /* FXMainVCL.m */; };
 		44430C471F8E134700F5BA00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44430C461F8E134700F5BA00 /* main.m */; };
@@ -109,6 +110,7 @@
 		440BEBF8206BB4B60097B234 /* SwiftMonkeyPaws.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftMonkeyPaws.xcodeproj; path = SwiftMonkeyPaws/SwiftMonkeyPaws.xcodeproj; sourceTree = "<group>"; };
 		440BEC0C206BB9BB0097B234 /* FXNewsDemoUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FXNewsDemoUITests-Bridging-Header.h"; sourceTree = "<group>"; };
 		440BEC0D206BB9BC0097B234 /* MonkeyRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonkeyRunner.swift; sourceTree = "<group>"; };
+		440DE369211046690079C455 /* 750x1334_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 750x1334_01.jpg; path = ../../../../Downloads/750x1334_01.jpg; sourceTree = "<group>"; };
 		440F1A411FA08E640075B9CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		440F1A451FA092360075B9CD /* FXMainVCL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FXMainVCL.h; sourceTree = "<group>"; };
 		440F1A461FA092360075B9CD /* FXMainVCL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FXMainVCL.m; sourceTree = "<group>"; };
@@ -234,6 +236,7 @@
 		44430C441F8E134700F5BA00 /* FXNewsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				440DE369211046690079C455 /* 750x1334_01.jpg */,
 				440F1A4A1FA0924E0075B9CD /* Module */,
 				440F1A401FA08AE40075B9CD /* Source */,
 				44430C481F8E134700F5BA00 /* AppDelegate.h */,
@@ -436,6 +439,7 @@
 			files = (
 				440F1A421FA08E640075B9CD /* Assets.xcassets in Resources */,
 				44084E4C1FC2CCEE00C7D8CB /* FXMainVCL.storyboard in Resources */,
+				440DE36A211046690079C455 /* 750x1334_01.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
